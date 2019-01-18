@@ -9,6 +9,7 @@ Using Support Vector Machine and Prinicipal Component Analysis to classify Brain
 •	Dimensionality reduction using Principal Component Analysis so that only the important features of the image are retained in the process, thereby decreasing the training time.
 ### Classification
 •	Classification of the brain images to be in 1 of the 4 states recorded: rest, finger movement, lips movement or foot movement. 
+
 •	This is performed by training it using an SVM [Support Vector Machine] and finding the test set accuracy using K-Fold Cross Validation.
 
 ### Running the code:
