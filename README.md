@@ -1,17 +1,17 @@
 # Brain-State-Classification-Using-SVM
 Using Support Vector Machine and Prinicipal Component Analysis to classify Brain State from fMRI images
 
-# Image Preprocessing:
+## Image Preprocessing:
 •	Realignment of the brain fMRI images for standardization in Matlab
 •	Segmentation of the non-brain voxels in Matlab
-# Feature Selection
+## Feature Selection
 •	Masking all the images to keep only the brain voxels in the image.
 •	Dimensionality reduction using Principal Component Analysis so that only the important features of the image are retained in the process, thereby decreasing the training time.
-# Classification
+## Classification
 •	Classification of the brain images to be in 1 of the 4 states recorded: rest, finger movement, lips movement or foot movement. 
 •	This is performed by training it using an SVM [Support Vector Machine] and finding the test set accuracy using K-Fold Cross Validation.
 
-# Running the code:
+## Running the code:
 
 • Run the matlab files for realignment for test and retest images(test_realign.m and retest_realign.m). It would generate a realigned 3D image.
 
